@@ -1,0 +1,41 @@
+.movie-list-header {
+  justify-content: space-between;
+  padding: 0px 30px;
+  margin-bottom: 5px;
+}
+
+.movie-list-heading {
+  font-size: 24px;
+  color: #ffe400;
+}
+
+.movie-filter {
+  list-style: none;
+  font-size: 16px;
+}
+.movie-filter-item {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.movie-filter-item.active {
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: 500;
+}
+
+.movie-sorting {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0 5px;
+  margin: 0 10px;
+}
+
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
