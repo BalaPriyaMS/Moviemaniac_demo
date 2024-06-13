@@ -27,13 +27,10 @@ const MovieList = ({ type, title, emoji }) => {
       setFilterMovieData(sortfilterdata);
     }
   }, [sort]);
-  // console.log(movieData, "movieData");
-  // console.log(filterMovieData, "filterMovieData");
 
   const fetchMethod = async () => {
     const respose = await fetch(API_URL);
     const data = await respose.json();
-    console.log(data);
     setMovieData(data.results);
     setFilterMovieData(data.results);
   };
