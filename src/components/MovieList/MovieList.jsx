@@ -12,7 +12,7 @@ const MovieList = ({ type, title, emoji }) => {
   const [filterMovieData, setFilterMovieData] = useState([]);
   const [initialRate, setinitialRate] = useState(0);
   const [sort, setSort] = useState({ by: "default", order: "asc" });
-  console.log("hi");
+
   useEffect(() => {
     fetchMethod();
   }, []);
