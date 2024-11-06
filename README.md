@@ -1,3 +1,3 @@
-# React + Vite
-Site:https://moviemaniac-demo.netlify.app
+
+Preview:https://moviemaniac-demo.netlify.app
 
